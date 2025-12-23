@@ -1,0 +1,70 @@
+/* *********** */
+/* HERO SECTION */
+/* *********** */
+#hero{
+    height: 650px;
+    background-image: url(/images/slider-image2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.navigation{
+    padding: 2.6rem 0;
+}
+.nav-bar{
+      display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    margin-right: 7rem;
+}
+.header-logo{
+    padding: 1.2rem;
+}
+.logo-title{
+    font-size: 2rem;
+    color: #ffffff;
+    font-weight: bold;
+    line-height: 2rem;
+}
+.logo-title span{
+color: #ce3232;
+}
+.nav-links li a{
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+.nav-links li a:hover{
+    color: #ce3232;
+}
+.nav-right{
+    display: flex;
+   align-items: center;
+}
+.phone{
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: bold;
+      margin-right: 3rem;
+      transition: all 0.3s ;
+}
+.phone:hover{
+   color: #ce3232;
+}
+.reserve-btn {
+    font-size: 1.4rem;
+    background-color: #ce3232;
+    color: #ffffff;
+    border: none;
+    padding: 1rem 2.2rem;
+    transition: all 0.3s;
+}
+.reserve-btn:hover {
+    background-color: #252525;
+}
