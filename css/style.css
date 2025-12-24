@@ -3,7 +3,7 @@
 /* *********** */
 #hero{
     height: 650px;
-    background-image: url(/images/slider-image2.jpg);
+    background-image: url(/images/slider-image3.jpg);
     background-position: center;
     background-repeat: no-repeat;
     
@@ -67,4 +67,87 @@ color: #ce3232;
 }
 .reserve-btn:hover {
     background-color: #252525;
+}
+.caption{
+      display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #ffffff;
+    height: 100%;
+    cursor: e-resize;
+    margin-top: 15rem;
+}
+.cp-12{
+    padding: 0 0 0 2rem;
+    width: 66.66666667%;
+    padding-right: 2rem;
+}
+.cp-12 h3{
+  font-size: 1.4rem;
+  text-transform:uppercase ;
+ letter-spacing: .2rem;
+ line-height: 2rem;
+ color: #f9f9f9;
+}
+.cp-12 h1{
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  padding-bottom: 5rem;
+  font-size: 4.2rem;
+  line-height: 5rem;
+}
+.caption-btn{
+    color: #f9f9f9;
+    background-color: #ce3232;
+    border: none;
+    padding: 1.4rem 3.2rem;
+    font-size: 1.2rem;
+    padding: 1.2rem 2.8rem;
+    transition: 0.5s 0.2s;
+}
+.caption-btn:hover{
+ color: #252525;
+ background-color: #f9f9f9;
+}
+/* *********** */
+/* ABOUT SECTION */
+/* *********** */
+#about{
+    padding: 10rem 0rem;
+}
+.row{
+    display: flex;
+}
+.col-md-50{
+    width: 50%;
+}
+.about-info{
+    padding: 0 7rem 5rem 0;
+}
+.about-info h4{
+    color: #bfbdbd;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: .1rem;
+    padding-bottom: 1.2rem;
+}
+.about-info h2 {
+    font-size: 2.8rem;
+    font-weight: 600;
+    line-height: 3.8rem;
+    padding-bottom: 2.6rem;
+}
+.about-info p {
+    color: #757575;
+    font-size: 1.4rem;
+    padding-bottom: 1.2rem;
+    line-height: 2rem;
+}
+.tamplete{
+    color: #252525;
+    transition: all 0.3s;
+}
+.tamplete:hover{
+   color: #ce3232;
 }
