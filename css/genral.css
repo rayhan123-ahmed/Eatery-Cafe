@@ -2,15 +2,20 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
- max-width: 100%;
 }
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 html {
   font-size: 62.5%;
 scroll-behavior: smooth;
 
 }
 body {
-  font-family: "Roboto", sans-serif;
+ font-family: 'Montserrat', sans-serif;
   line-height: 1;
   font-weight: 400;
 }
@@ -23,6 +28,11 @@ body {
   padding: 0 3rem;
   margin: 0 auto;
 }
+.container-full {
+  width: 100%;
+  padding: 0 3rem;
+}
+
 a {
   text-decoration: none;
 }
