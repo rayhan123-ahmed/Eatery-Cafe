@@ -259,7 +259,7 @@ padding-left: 1.6rem;
 /* MENU SECTION */
 /* *********** */
 #menu{
-    padding: 10rem 0;
+    padding:10rem 0rem 0rem 0rem;
 }
 #menu .row{
     flex-wrap: wrap;
@@ -271,7 +271,6 @@ padding-left: 1.6rem;
     position: relative;
     overflow: hidden;
     width: 102%;
-   
 }
 .img-file{
     width: 100%;
@@ -339,4 +338,55 @@ padding-left: 1.6rem;
 .menu-thumb:hover .menu-price span{
     opacity: 1;
   transform: translate(0px);  
+}
+/* *********** */
+/* TESTOMONIAL SECTION */
+/* *********** */
+#testomonial{
+    background: url(../images/testimonial-bg.jpg) center center no-repeat;
+    background-attachment:fixed ;
+    position: relative;
+    padding: 10rem 0rem;
+   }
+.overly {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+   z-index: 1;
+}
+#testomonial .container {
+  position: relative;
+  z-index: 2;
+ 
+}
+.test-info {
+    text-align: center;
+}
+.testomonial-heading h2 {
+    color: #ffffff;
+    font-size: 2.8rem;
+    margin-bottom: 3.2rem;
+}
+
+.testomonial-item p {
+    padding: 0rem 12rem;
+    color: #d9d9d9;
+    font-size: 2rem;
+    line-height: 2.6rem;
+    margin-bottom: 3.2rem;
+}
+.testomonial-author{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #d9d9d9;
+}
+.testomonial-author h4{
+   color: #b2b2b2;
+   font-size: 1.8rem;
+   margin-right: 1rem;
+}
+.testomonial-author span{
+    font-size: 1.2rem;
 }
