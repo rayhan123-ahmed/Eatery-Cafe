@@ -447,7 +447,7 @@ textarea{
     padding: 0 1rem;
     overflow: auto;
     width: 460px;
-    height: 270px;
+    height: 200px;
     resize: vertical;
     width: 100%;
 }
@@ -463,4 +463,112 @@ textarea{
 }
 .conatct-btn:hover {
     background-color: #292929;
+}
+/* *********** */
+/* FOOTER SECTION */
+/* *********** */
+footer{
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    padding: 10rem 0;
+}
+.footer-main-1{
+    flex: 0 0 25%;
+    padding: 0 2rem;
+}
+.footer-main-2{
+    flex: 0 0 33.33333333%;
+    padding: 0 1rem;
+}
+.footer-main-3 {
+    flex: 0 0 16.66666667%;
+    padding: 0 2rem;
+    margin-top: 3rem;
+}
+.section-title{
+    padding-bottom: 1.2rem;
+}
+.section-title h2{
+    font-size: 2rem;
+    color: #353535;
+    line-height: 3rem;
+}
+address p {
+    font-size: 1.4rem;
+    color: #909090;
+    line-height: 3rem;
+    font-weight: normal;
+}
+.footer-link{
+    color:#909090 ;
+    transition: all 0.2s;
+}
+.footer-link:hover{
+    color:#ce3232 ;
+}
+.footer-shop{
+    position: relative;
+    background: url(../images/footer-open-hour-bg.jpg)center center no-repeat;
+    background-size: cover;
+    padding: 3rem 0 2rem 8rem;
+    height: 23rem;
+    margin-top: 1rem;
+    overflow: hidden;
+    z-index: 22;
+    border-radius: 2rem;
+}
+.footer-shop::after{
+    background: rgba(29,29,29,0.85);
+    position: absolute;
+    content: "";
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -2222;
+}
+.footer-shop h2{
+    color: #ffffff;
+    padding-bottom: .6rem;
+}
+footer .shop-open p{
+    color: #d9d9d9;
+    font-size: 1.2rem;
+    margin-bottom: 1.4rem;
+}
+.shop-open h3{
+    color: #ffffff;
+    font-size: 1.4rem;
+    margin-bottom: 1.2rem;
+}
+.footer-social li{
+    display: inline-block;
+}
+.footer-social li a {
+    border-radius: 10rem;
+    color: #ce3232;
+    font-size: 1.5rem;
+    height: 3rem;
+    width: 3rem;
+    display: block;
+    line-height: 3rem;
+    text-align: center;
+    transition: all 0.3s;
+}
+.footer-social li a:hover {
+    background-color: #ce3232;
+    color: #ffffff;
+}
+.copyright p{
+    color: #757575;
+    font-size: 1.4rem;
+    line-height: 3rem;
+}
+.copyright p a{
+    color: #757575;
+    transition: all 0.2s;
+}
+.copyright p a:hover{
+    color: #ce3232;
 }
