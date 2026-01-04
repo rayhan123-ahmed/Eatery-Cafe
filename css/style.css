@@ -1,20 +1,17 @@
 /* *********** */
-/* HERO SECTION */
+/* NAV SECTION */
 /* *********** */
-#hero{
-    height: 650px;
-    background-image: url(/images/slider-image3.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    
+#navigation{
+    position: relative;
+    z-index: 2222;
 }
-.navigation{
+.nav{
     padding: 2.6rem 0;
 }
 .nav-bar{
-      display: flex;
-  align-items: center;
-  justify-content: space-between;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .nav-links{
     display: flex;
@@ -32,7 +29,7 @@
     line-height: 2rem;
 }
 .logo-title span{
-color: #ce3232;
+    color: #ce3232;
 }
 .nav-links li a{
     color: #ffffff;
@@ -45,17 +42,17 @@ color: #ce3232;
 }
 .nav-right{
     display: flex;
-   align-items: center;
+    align-items: center;
 }
 .phone{
     color: #ffffff;
     font-size: 1.2rem;
     font-weight: bold;
-      margin-right: 3rem;
-      transition: all 0.3s ;
+    margin-right: 3rem;
+    transition: all 0.3s ;
 }
 .phone:hover{
-   color: #ce3232;
+    color: #ce3232;
 }
 .reserve-btn {
     font-size: 1.4rem;
@@ -68,6 +65,20 @@ color: #ce3232;
 .reserve-btn:hover {
     background-color: #252525;
 }
+/* *********** */
+/* HERO SECTION */
+/* *********** */
+#hero{
+    height: 650px;
+    background-image: url(/images/slider-image3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
 .caption{
       display: flex;
     flex-direction: column;
@@ -75,7 +86,7 @@ color: #ce3232;
     color: #ffffff;
     height: 100%;
     cursor: e-resize;
-    margin-top: 15rem;
+    margin-top: 24rem;
 }
 .cp-12{
     padding: 0 0 0 2rem;
