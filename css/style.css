@@ -66,6 +66,9 @@
 .reserve-btn:hover {
     background-color: #252525;
 }
+.mobile-header {
+  display: none;
+}
 /* *********** */
 /* HERO SECTION */
 /* *********** */
@@ -350,7 +353,7 @@ padding-left: 1.6rem;
 /* *********** */
 #testomonial{
     background: url(../images/testimonial-bg.jpg) center center no-repeat;
-    background-attachment:fixed ;
+    background-attachment:scroll ;
     position: relative;
     padding: 10rem 0rem;
    }
