@@ -1,1 +1,76 @@
-  
+/* *********** */
+/* BELOW 1100px  */
+/* *********** */
+@media  (max-width: 68.75em) {
+    .logo-title {
+    font-size: 1.8rem;
+}
+    .nav-links {
+    gap: 4rem;
+}
+.cp-12 h3 {
+    font-size: 1.2rem;
+}
+.cp-12 h1 {
+    margin-bottom: 1rem;
+    font-size: 3.8rem;
+}
+}
+  /* *********** */
+/* BELOW 1000px  */
+/* *********** */
+@media  (max-width: 62.5em) {
+.container {
+    max-width: 87rem;
+}
+nav{
+    margin-left: 4rem;
+}
+.logo-title {
+    font-size: 1.5rem;
+}
+.nav-links {
+    gap: 2rem;
+}
+.cp-12 h3 {
+    font-size: 1.5rem;
+}
+.cp-12{
+    width: 100%;
+}
+.cp-12 h1 {
+    font-size: 4.6rem;
+    line-height: 6rem;
+}
+.caption-btn { 
+    font-size: 1.4rem;
+    padding: 1.2rem 3.8rem;
+}
+.col-md-50 {
+    width: 100%;
+}
+.about-info h4 {
+    font-size: 1.2rem;
+}
+.about-info h2 {
+    font-size: 3.2rem;
+}
+.about-info p {
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+.menu-img {
+    width: 50%;
+}
+.footer-main-1 {
+    flex: 0 0 100%;
+    padding-bottom: 2.4rem;
+}
+.footer-main-2  {
+    flex: 0 0 60%;
+}
+.footer-main-3 {
+    flex: 0 0 40%;
+}
+}
+

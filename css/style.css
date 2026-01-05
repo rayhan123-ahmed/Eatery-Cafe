@@ -1,11 +1,10 @@
 /* *********** */
 /* NAV SECTION */
 /* *********** */
-#navigation{
-    position: relative;
-    z-index: 2222;
+.navigation{
+   padding: 2.4rem 0;
 }
-.nav{
+.nav-left{
     padding: 2.6rem 0;
 }
 .nav-bar{
@@ -17,10 +16,11 @@
     display: flex;
     align-items: center;
     gap: 5rem;
-    margin-right: 7rem;
+
 }
 .header-logo{
     padding: 1.2rem;
+    white-space: nowrap;
 }
 .logo-title{
     font-size: 2rem;
@@ -45,6 +45,7 @@
     align-items: center;
 }
 .phone{
+    white-space: nowrap;
     color: #ffffff;
     font-size: 1.2rem;
     font-weight: bold;
@@ -70,28 +71,22 @@
 /* *********** */
 #hero{
     height: 650px;
-    background-image: url(/images/slider-image3.jpg);
+    background-image: url(/images/slider-image2.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-}
+    }
 .caption{
-      display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     color: #ffffff;
     height: 100%;
     cursor: e-resize;
-    margin-top: 24rem;
+    margin-top: 12rem;
 }
 .cp-12{
-    padding: 0 0 0 2rem;
+    padding: 0 2rem 0 2rem;
     width: 66.66666667%;
-    padding-right: 2rem;
 }
 .cp-12 h3{
   font-size: 1.4rem;
@@ -111,7 +106,6 @@
     color: #f9f9f9;
     background-color: #ce3232;
     border: none;
-    padding: 1.4rem 3.2rem;
     font-size: 1.2rem;
     padding: 1.2rem 2.8rem;
     transition: 0.5s 0.2s;
@@ -128,6 +122,7 @@
 }
 .row{
     display: flex;
+    flex-wrap: wrap;
 }
 .col-md-50{
     width: 50%;
