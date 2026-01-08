@@ -111,3 +111,45 @@ nav{
 }
 
 }
+/* *********** */
+/* BELOW 700px  */
+/* *********** */
+@media  (max-width: 43.75em){
+    .container {
+    padding: 0 2rem;
+    }
+    .cp-12 h3 {
+        font-size: 1.2rem;
+    }
+    .cp-12 h1 {
+        font-size: 3.2rem;
+        line-height: 5rem;
+        margin-bottom: 0;
+    }
+    .caption-btn {
+        font-size: 1.2rem;
+        padding: 1rem 3.4rem;
+    }
+    .about-info {
+    padding: 0 2rem 2rem 0;
+    }
+    .about-info h2 {
+        font-size: 2.6rem;
+    }
+    .col-md-img {
+    width: 100%;
+    padding-right: 0;
+    }
+    .menu-img {
+        width: 100%;
+    }
+    .testomonial-item p {
+    padding: 0rem 1rem ;
+    }
+    .footer-main-2 {
+        flex: 0 0 100%;
+    }
+    .footer-main-3 {
+        flex: 0 0 100%;
+    }
+}
